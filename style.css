@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: #FFF7E1;
+    background-size: contain
+    contain;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF7E1;
+    /*background-image:url('img/Top_Image.png');*/
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header
+{
+    position: absolute;
+    top: 2cm;
+    right: 10cm;
+    width: 80%;
+    padding: 20px 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+header .img
+{
+    padding: 1cm 10%;
+    max-width: 45cm;
+    object-position: inherit;
+    object-fit: contain;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+.content
+{
+    padding: 17cm 0%;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox
+{
+    padding: 0cm 0%;
+    text-align: justify;
+    max-width: 10000px;
+
+}
+.content .textBox p
+{
+    font-size: large;
+    color: #333;
+}
+
