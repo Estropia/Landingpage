@@ -46,18 +46,9 @@ header .img
     object-fit: contain;
 }
 
-/*.content
-{
-    padding: 17cm 0%;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
 .textBox
 {
-    padding: 14cm 0%;
+    padding: 16.5cm 0%;
     text-align: justify;
     max-width: 10000px;
 
@@ -70,15 +61,6 @@ header .img
 
 @media(max-width: 700px) {
     
-    /*.content{
-        padding: 17cm 0%;
-        text-align: center;
-        width: 100%;
-        max-height: 100px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }*/
     .textBox{
         padding: 4cm 0%;
         text-align: justify;
@@ -98,7 +80,6 @@ header .img
     min-height: -1000vh;
     padding: 5px;
     display: flex;
-    /*justify-content: space-between;*/
     align-items: center;
     background: #FFF7E1;
     background-image:url('img/Top_Image.png');
